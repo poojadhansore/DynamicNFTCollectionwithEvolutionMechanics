@@ -9,8 +9,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol"
 
 /**
- * @title DynamicNFTCollectionwithEvolutionMechanics
- * @dev An NFT collection where tokens evolve based on age, interactions, and randomness.
+
  */
 contract DynamicNFTCollectionwithEvolutionMechanics is ERC721, ERC721URIStorage, Ownable, ReentrancyGuard {
     using Counters for Counters.Counter;
