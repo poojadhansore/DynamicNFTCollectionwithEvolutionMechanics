@@ -18,7 +18,7 @@ contract DynamicNFTCollectionwithEvolutionMechanics  ERC721, ERC721URIStorage, O
 
     enum EvolutionStage { EGG, JUVENILE, ADULT, ELDER }
 
-    struct NFTMetadata {
+    struct NFTMet
         EvolutionStage stage;
         uint256 birthTimestamp;
         uint256 lastInteraction;
