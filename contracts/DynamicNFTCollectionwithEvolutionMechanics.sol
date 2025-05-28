@@ -10,8 +10,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol"
 
 /**
 
- */
-contract DynamicNFTCollectionwithEvolutionMechanics  ERC721, ERC721URIStorage, Ownable, ReentrancyGuard {
+ act DynamicNFTCollectionwithEvolutionMechanics  ERC721, ERC721URIStorage, Ownable, ReentrancyGuard {
     using Counters for Counters.Counter;
 
     Counters.Counter private _tokenIdCounter;
