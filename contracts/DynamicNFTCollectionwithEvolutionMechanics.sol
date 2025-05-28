@@ -18,7 +18,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol"
     enum EvolutionStage { EGG, JUVENILE, ADULT, ELDER }
 
     struct NFTMet
-        EvolutionStage stage;
+        EvolutionStage sta
         uint256 birthTimestamp;
         uint256 lastInteraction;
         uint256 interactionCount;
