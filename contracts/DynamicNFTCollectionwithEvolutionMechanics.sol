@@ -7,8 +7,6 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
-
-/**
  * @title DynamicNFTCollection with Evolution Mechanics
  * @dev ERC721 NFT collection where NFTs evolve based on interactions and time
  */
