@@ -17,14 +17,7 @@ contract DynamicNFTCollection is ERC721, ERC721URIStorage, Ownable, ReentrancyGu
 
     enum EvolutionStage { EGG, JUVENILE, ADULT, ELDER }
 
-    struct NFTMetadata {
-        EvolutionStage stage;\\\\\
-        uint256 birthTimestamp;
-        uint256 lastInteraction;
-        uint256 interactionCount;
-        uint256 evolutionPoints;
-        bool isSpecial;
-        string name;
+    
     }jjj
 
     mapping(uint256 => NFTMetadata) public nftMetadata;
