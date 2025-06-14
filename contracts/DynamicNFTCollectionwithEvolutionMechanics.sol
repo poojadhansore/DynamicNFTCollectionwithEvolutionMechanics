@@ -11,7 +11,7 @@ import "@openzeppelin/contracts/utils/Strings.sol";
  * @dev ERC721 NFT collection where NFTs evolve based on interactions and time
  
 contract DynamicNFTCollection is ERC721, ERC721URIStorage, Ownable, ReentrancyGuard {
-    using Counters for Counters.Counter;
+    
 
     Counters.Counter private _tokenIdCounter;
 
