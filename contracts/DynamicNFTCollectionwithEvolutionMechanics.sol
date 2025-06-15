@@ -33,12 +33,6 @@ contract DynamicNFTCollection is ERC721, ERC721URIStorage, Ownable, ReentrancyGu
     event SpecialEventTriggered(uint256 indexed tokenId, string eventType);
     event NameChanged(uint256 indexed tokenId, string oldName, string newName);
 
-    constructor() ERC721("DynamicNFTCollection", "DNFT") {
-        evolutionRequirements[EvolutionStage.EGG] = 0;
-        evolutionRequirements[EvolutionStage.JUVENILE] = 100;
-        evolutionRequirements[EvolutionStage.ADULT] = 500;
-        evolutionRequirements[EvolutionStage.ELDER] = 1500;
-    }
 
     function mintDynamicNFT(address to, string memory name) public onlyOwner returns (uint256) {
         require(_tokenIdCounter.current() < MAX_SUPPLY, "Max supply reached");
