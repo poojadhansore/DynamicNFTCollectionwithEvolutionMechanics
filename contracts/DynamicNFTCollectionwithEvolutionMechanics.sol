@@ -15,8 +15,7 @@ contract DynamicNFTCollection is ERC721, ERC721URIStorage, Ownable, ReentrancyGu
 
     Counters.Counter private _tokenIdCounter;
 
-    enum EvolutionStage { EGG, JUVENILE, ADULT, ELDER }
-
+   
     
     }jjj
 
