@@ -13,7 +13,7 @@ import "@openzeppelin/contracts/utils/Strings.sol";
 contract DynamicNFTCollection is ERC721, ERC721URIStorage, Ownable, ReentrancyGuard {
     
 
-    Counters.Counter private _tokenIdCounter;
+    Counters.Counter private _tokenId
 
    
     
