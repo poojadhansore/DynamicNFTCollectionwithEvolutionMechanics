@@ -99,11 +99,6 @@ Counters.Counter private _tokenId
         return required - meta.evolutionPoints;
     }
 
-    function resetInteractionCooldown(uint256 tokenId) public onlyOwner {
-        require(_exists(tokenId), "Token does not exist");
-        nftMetadata[tokenId].lastInteraction = 0;
-    }
-
     function manualPromoteToSpecial(uint256 tokenId) public onlyOwner {
         require(_exists(tokenId), "Token does not exist");
         require(!nftMetadata[tokenId].isSpecial, "Already special");
