@@ -11,11 +11,7 @@ import "@openzeppelin/contracts/utils/Strings.sol";
  * @dev ERC721 NFT collection where NFTs evolve based on interactions and time
  
 contract DynamicNFTCollection is ERC721, ERC721URIStorage, Ownable, Reentrancy
-Counters.Counter private _tokenId
 
-   
-    
-    }jjj
 
     mapping(uint256 => NFTMetadata) public nftMetadata;
     mapping(EvolutionStage => string) public stageBaseURIs;
@@ -127,11 +123,6 @@ Counters.Counter private _tokenId
             m.isSpecial = true;
             emit SpecialEventTriggered(tokenId, "Special Evolution Unlocked");
         }
-
-        if (newStage != current) {
-            m.stage = newStage;
-            _setTokenURI(tokenId, _generateTokenURI(tokenId));
-            emit Evolution(tokenId, current, newStage);
         }
     }
 
