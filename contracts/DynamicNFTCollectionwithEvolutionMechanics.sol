@@ -80,10 +80,6 @@ contract DynamicNFTCollection is ERC721, ERC721URIStorage, Ownable, Reentrancy
         emit NameChanged(tokenId, oldName, newName);
     }
 
-    function getCurrentStageURI(uint256 tokenId) public view returns (string memory) {
-        require(_exists(tokenId), "Token does not exist");
-        return stageBaseURIs[nftMetadata[tokenId].stage];
-    }
 
     function getEvolutionProgress(uint256 tokenId) public view returns (uint256 neededPoints) {
         require(_exists(tokenId), "Token does not exist");
