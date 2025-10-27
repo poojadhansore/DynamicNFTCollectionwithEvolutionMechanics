@@ -6,7 +6,7 @@ Project Vision
 Our vision is to revolutionize the NFT space by introducing living, breathing digital assets that evolve and grow alongside their owners. We aim to create a new paradigm where NFTs are not just static collectibles but dynamic companions that develop unique characteristics over time. This project represents the future of NFTs - interactive, engaging, and constantly changing digital assets that provide ongoing value and entertainment to their holders.
 We envision a world where NFT ownership becomes an active, engaging experience that rewards long-term holders and active participants. By implementing evolution mechanics, we're bridging the gap between traditional collectibles and modern gaming experiences, creating a hybrid that appeals to both collectors and gamers alike.
 Key Features
-🧬 Dynamic Evolution System
+🧬 Dynamic Evolution System ??
 
 Four Evolution Stages: EGG → JUVENILE → ADULT → ELDER
 Multiple Evolution Triggers: Age-based evolution, interaction-based evolution, and point accumulation
