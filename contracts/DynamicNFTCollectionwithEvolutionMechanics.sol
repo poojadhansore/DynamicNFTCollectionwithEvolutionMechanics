@@ -42,6 +42,7 @@ Evolution level of the NFT
     function _constructTokenURI(uint256 tokenId) internal view returns (string memory) {
         NFTMetadata memory metadata = _tokenMetadata[tokenId];
         End
+End
 // 
 // 
 End
