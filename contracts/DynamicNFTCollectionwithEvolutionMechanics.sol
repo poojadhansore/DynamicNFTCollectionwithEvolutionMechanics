@@ -43,6 +43,7 @@ Evolution level of the NFT
         NFTMetadata memory metadata = _tokenMetadata[tokenId];
         End
 End
+End
 // 
 // 
 End
